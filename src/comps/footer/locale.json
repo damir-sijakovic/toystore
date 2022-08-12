@@ -1,0 +1,24 @@
+{
+	"company_text" :{
+		"en": "Our toys for all ages feature favourites alongside the best and newest brands around.",
+		"hr": "Imamo igračke za sve uzraste kao najbolje i najnovije robne marke."
+	},
+	"menutitle_products" :{
+		 "en": "Products",
+		 "hr": "Proizvodi"
+	},
+	"menutitle_usefullLinksTitle" :{
+		 "en": "Usefull links",
+		 "hr": "Korisne poveznice"
+	},
+
+	"menutitle_contact" :{
+		 "en": "Contact",
+		 "hr": "Kontakt"
+	},
+
+	"button_02" :{
+		"en": "Secondary Action",
+		"hr": "Sekundarno djelovanje"
+	}
+}

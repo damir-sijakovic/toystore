@@ -1,0 +1,28 @@
+{
+
+	"block1_title" :{
+		"en": "Summer sale now on!",
+		"hr": "Ljetna rasprodaja!"
+	},
+	"block1_text" :{
+		"en": "Visit us and check it out!",
+		"hr": "Posjetite nas i provjerite!"
+	},
+	"block2_title" :{
+		"en": "New toys every month!",
+		"hr": "Nove igračke svaki mjesec!"
+	},
+	"block2_text" :{
+		"en": "Tell us what you like and we will get it for you!",
+		"hr": "Recite nam što vam se sviđa i nabaviti ćemo to za vas!"
+	},	
+	"block3_title" :{
+		"en": "Can you sell our toys? Yes!",
+		"hr": "Možete li prodati naše igračke? Da!"
+	},
+	"block3_text" :{
+		"en": "Have your little webshop? Feel free to re-sell our toys! It's a win-win situation! ",
+		"hr": "Imate svoju malu internet trgovinu? Slobodno preprodavajte naše igračke! To je Win-win situacija!"
+	}
+
+}

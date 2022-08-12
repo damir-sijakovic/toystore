@@ -1,0 +1,22 @@
+{
+	"menu_home" :{
+		"en": "Home",
+		"hr": "Naslovna"
+	},
+	"menu_store" :{
+		"en": "Store",
+		"hr": "Trgovina"
+	},
+	"menu_privacy" :{
+		"en": "Privacy",
+		"hr": "Privatnost"
+	},
+	"menu_about" :{
+		"en": "About",
+		"hr": "O nama"
+	},
+	"search" :{
+		"en": "Search",
+		"hr": "Pretraga"
+	}
+}

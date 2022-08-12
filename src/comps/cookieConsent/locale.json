@@ -1,0 +1,19 @@
+{
+	"title" :{
+		"en": "This site uses cookies to enhance user experience. see",
+		"hr": "Ova web lokacija koristi kolačiće za poboljšanje korisničkog iskustva. vidi"
+	},
+	"button_allow" :{
+		"en": "Allow cookies",
+		"hr": "Dopusti kolačiće"
+	},
+	"button_cancel" :{
+		"en": "Cancel",
+		"hr": "Odustani"
+	},
+	"privacy_link_text" :{
+		"en": "Privacy policy",
+		"hr": "Pravila o privatnosti"
+	}
+
+}

@@ -1,0 +1,16 @@
+.button-gap{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/*
+.main-about{
+    padding-bottom: 0px !important;
+}
+
+.main-about-inner{
+    padding-bottom: 0px !important;
+}
+
+*/

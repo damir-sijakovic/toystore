@@ -1,0 +1,22 @@
+{
+	"title" :{
+		"en": "Selected products",
+		"hr": "Odabrani proizvodi"
+	},
+	"product_title" :{
+		"en": "Product example",
+		"hr": "Primjer proizvoda"
+	},
+	"product_body" :{
+		 "en": "Some quick example text to build on the product card title and make up the bulk of the card's content.",
+		 "hr": "Primjer teksta za kartice proizvoda i u svrhu popunjavnja sadržaja kartice."
+	},
+	"product_price" :{
+		 "en": "1.298,00 €",
+		 "hr": "1.298,00 kn"
+	},
+	"product_button" :{
+		"en": "Buy now",
+		"hr": "Kupi proizvod"
+	}
+}

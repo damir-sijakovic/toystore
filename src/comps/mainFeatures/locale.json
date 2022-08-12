@@ -1,0 +1,46 @@
+{
+	"title" :{
+		"en": "Finest toys",
+		"hr": "Najfinije igračke"
+	},
+
+	"block1_title" :{
+		"en": "Fluffy toys",
+		"hr": "Pahuljaste igračke"
+	},
+	"block1_body" :{
+		"en": "Fluffy toys are your kids BFF! From the classic bear to their favorite stuffed animal, find the right cuddle buddy from a wide collection of soft toys at our store. ",
+		"hr": "Pahuljaste igračke su vaša djeca BFF! Od klasičnoga medvjeda i ostalih njihovih omiljenih životinje, u našoj trgovini pronađite pravog prijatelja za malca iz široke kolekcije mekih igračaka."
+	},
+	"block1_button" :{
+		"en": "Shop now",
+		"hr": "Kupite sada"
+	},
+
+	"block2_title" :{
+		"en": "Games & Puzzles",
+		"hr": "Igre i zagonetke"
+	},
+	"block2_body" :{
+		"en": "It’s all fun & games at ToyStore! One stop shop for your child’s happiness! Puzzles that keep their mind running and smart games to enhance their thinking skills.",
+		"hr": "Sve je to zabava i igre kod nas u ToyStore-u! Mjesto za sreću vašeg djeteta! Zagonetke koje izoštravaju um i pametne igre koje poboljšavaju sposobnosti razmišljanja."
+	},
+	"block2_button" :{
+		"en": "Shop now",
+		"hr": "Kupite sada"
+	},
+
+	"block3_title" :{
+		"en": "Construction",
+		"hr": "Konstrukcije"
+	},
+	"block3_body" :{
+		"en": "Explore your child’s creativity with constructions toys! Toys help you rebuild the world at home! Choose, what you want to rebuild today and enjoy! ",
+		"hr": "Istražite kreativnost svog djeteta s igračkama konstrukcija! Igračke vam pomažu da stvaramo mali svijet kod kuće! Odaberite, što želite stvoriti danas i uživajte!"
+	},
+	"block3_button" :{
+		"en": "Shop now",
+		"hr": "Kupite sada"
+	}
+
+}

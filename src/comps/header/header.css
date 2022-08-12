@@ -1,0 +1,36 @@
+.header-logo {
+    height:50px;
+    margin-right: 18px;
+}
+
+.header-item::first-letter {
+    text-transform:capitalize;
+}
+
+.language-button{
+    margin: 0 10px;
+}
+
+.toggle-futton-flag{
+    font-size: 30px;    
+}
+
+.okok{
+	color:red;
+}
+
+.inactive {
+    color: #453455;
+    text-decoration: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: black;
+    background: #ffca2c;
+    text-decoration: none;
+  }
+
+.nav-link:focus, .nav-link:hover{
+    color: red;
+}
+
