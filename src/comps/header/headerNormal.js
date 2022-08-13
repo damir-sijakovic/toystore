@@ -79,7 +79,7 @@ const HeaderNormal = () => {
             href="/"
             className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
           >
-            <img className="header-logo" src={LogoImage} />
+            <img alt="Project logo" className="header-logo" src={LogoImage} />
           </a>
 
           <DrawMenu seletedItem="home" selectedLocale={locale} />
