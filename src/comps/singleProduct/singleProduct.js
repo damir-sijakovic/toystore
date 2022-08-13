@@ -1,9 +1,9 @@
 import "./singleProduct.css";
 //import localeJson from "./locale.json";
-import { useSelector } from "react-redux";
+//import { useSelector } from "react-redux";
 
 const SingleProduct = () => {
-  const { locale } = useSelector((state) => state.app);
+  //const { locale } = useSelector((state) => state.app);
 
   return (
      
@@ -14,8 +14,8 @@ const SingleProduct = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="images p-3">
-                            <div className="text-center p-4"> <img id="main-image" src="/assets/img/03.jpg" width="250" /> </div>
-                            <div className="thumbnail text-center"> <img onClick={console.log(123)} src="/assets/img/01.jpg" width="70" /> <img onClick={console.log(123)} src="/assets/img/02.jpg" width="70" /> </div>
+                            <div className="text-center p-4"> <img alt="product image" id="main-image" src="/assets/img/03.jpg" width="250" /> </div>
+                            <div className="thumbnail text-center"> <img alt="product image" onClick={console.log(123)} src="/assets/img/01.jpg" width="70" /> <img alt="product image" onClick={console.log(123)} src="/assets/img/02.jpg" width="70" /> </div>
                         </div>
                     </div>
                     <div className="col-md-6">

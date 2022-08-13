@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 const Privacy = () => {    
   const { locale } = useSelector((state) => state.app);  
   
-  if (locale == 'hr'){
+  if (locale === 'hr'){
     return <LocaleHr />;
   }
   else {

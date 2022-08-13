@@ -17,10 +17,10 @@ const CreateMenuItems = (props) => {
 	for (let i=0; i<menuItems.length; i++){
 		let menuName = localeJson["menu_" + menuItems[i]][selectedLocale];
 		let currentItem = menuItems[i];
-		let currentItemHref = currentItem == "home" ? "/" : "/" + currentItem;
+		let currentItemHref = currentItem === "home" ? "/" : "/" + currentItem;
 		let key = "key_" + menuItems[i];	
 		
-		if (currentPage == currentItemHref) {	
+		if (currentPage === currentItemHref) {	
 			returnElements.push( <Nav.Link href={currentItemHref} key={key} > {menuName} </Nav.Link> );
 		}
 		else {
@@ -44,8 +44,8 @@ const HeaderOffcanvas = () => {
   const dispatch = useDispatch();
   const { locale } = useSelector((state) => state.app);
 
-  const hrButton = (locale == 'hr') ? true : false;
-  const enButton = (locale == 'en') ? true : false;
+  const hrButton = (locale === 'hr') ? true : false;
+  const enButton = (locale === 'en') ? true : false;
   
   const handleKeyPress = (e) => {
     if(e.key === 'Enter'){
@@ -64,7 +64,7 @@ const HeaderOffcanvas = () => {
               href="/"
               className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
             >
-              <img className="header-logo" src={LogoImage} />
+              <img alt="logo" className="header-logo" src={LogoImage} />
             </a>
 
             <div className="text-end">

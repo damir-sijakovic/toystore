@@ -12,11 +12,11 @@ const MainAbout = () => {
           <h1 className="fw-light"> {localeJson.title[locale]} </h1>
           <p className="lead text-muted"> {localeJson.body[locale]} </p>
           <p className="button-gap">
-            <a href="#" className="btn btn-warning my-2">
+            <a href="/" className="btn btn-warning my-2">
               {" "}
               {localeJson.button_01[locale]}{" "}
             </a>
-            <a href="#" className="btn btn-secondary my-2">
+            <a href="/" className="btn btn-secondary my-2">
               {" "}
               {localeJson.button_02[locale]}{" "}
             </a>

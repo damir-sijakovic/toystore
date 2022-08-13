@@ -20,10 +20,10 @@ const DrawMenu = (props) => {
     for (let i = 0; i < menuItems.length; i++) {
       let menuName = localeJson["menu_" + menuItems[i]][selectedLocale];
       let currentItem = menuItems[i];
-      let currentItemHref = currentItem == "home" ? "/" : "/" + currentItem;
+      let currentItemHref = currentItem === "home" ? "/" : "/" + currentItem;
       let key = "key_" + menuItems[i];
 
-      if (currentPage == currentItemHref) {
+      if (currentPage === currentItemHref) {
         returnList.push(
           <li key={key}>
             <a href={currentItemHref} className={selectedMenuClasses}>
@@ -57,10 +57,6 @@ const HeaderNormal = () => {
   const inputElement = useRef();
   const dispatch = useDispatch();
   const { locale } = useSelector((state) => state.app);
-  const localeMenuItems = {
-    en: "🇬🇧 English (EN)",
-    hr: "🇭🇷 Hrvatski (HR)",
-  };
 
   const localeMenuItemsShort = {
     en: "🇬🇧 EN",

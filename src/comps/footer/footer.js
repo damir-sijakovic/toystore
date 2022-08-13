@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 const Footer = () => {
    
   const { locale } = useSelector((state) => state.app);  
-  const language = "hr";
   const year = new Date().getFullYear();
   
 return ( 

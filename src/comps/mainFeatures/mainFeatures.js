@@ -19,7 +19,7 @@ const MainFeatures = () => {
           <div>
             <h2>{localeJson.block1_title[locale]} </h2>
             <p> {localeJson.block1_body[locale]} </p>
-            <a href="#" className="btn btn-warning">
+            <a href="/" className="btn btn-warning">
               {localeJson.block1_button[locale]}
             </a>
           </div>
@@ -31,7 +31,7 @@ const MainFeatures = () => {
           <div>
             <h2>{localeJson.block2_title[locale]}</h2>
             <p>{localeJson.block2_body[locale]}</p>
-            <a href="#" className="btn btn-warning">
+            <a href="/" className="btn btn-warning">
               {localeJson.block2_button[locale]}
             </a>
           </div>
@@ -43,7 +43,7 @@ const MainFeatures = () => {
           <div>
             <h2>{localeJson.block3_title[locale]}</h2>
             <p> {localeJson.block3_body[locale]} </p>
-            <a href="#" className="btn btn-warning">
+            <a href="/" className="btn btn-warning">
               {localeJson.block3_button[locale]}
             </a>
           </div>

@@ -28,10 +28,11 @@ function Hello() {
         backdrop="static"
         keyboard={false}
       >
-        <Modal.Header closeButton>
+        <Modal.Header closeButton>         
           <Modal.Title>Hello wonderer!</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+
           <p className="hello-paragraph">
             This is my little demonstration app using:{" "}
           </p>

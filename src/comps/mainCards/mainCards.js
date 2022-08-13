@@ -1,4 +1,4 @@
-import { BiMap, BiCalendar, BiCartAlt } from "react-icons/bi";
+import { BiMap, BiCalendar } from "react-icons/bi";
 import "./mainCards.css";
 import localeJson from "./locale.json";
 import { useSelector } from "react-redux";
