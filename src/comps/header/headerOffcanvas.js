@@ -88,10 +88,10 @@ const HeaderOffcanvas = () => {
           <div className="m-4">
               <div className="btn-group">
                   <input type="radio" className="btn-check" name="options" id="radio2" autoComplete="off" onChange={() => dispatch(setLocale("en"))} checked={enButton} />
-                  <label className="btn btn-outline-warning toggle-futton-flag" htmlFor="radio2">🇬🇧</label>
+                  <label className="btn btn-outline-warning toggle-futton-flag" htmlFor="radio2"><img alt="English flag" className="toggler-icon" src="/assets/img/en.png" /></label>
 
                   <input type="radio" className="btn-check" name="options" id="radio1" autoComplete="off" onChange={() => dispatch(setLocale("hr"))}  checked={hrButton} />
-                  <label className="btn btn-outline-warning toggle-futton-flag" htmlFor="radio1">🇭🇷</label>          
+                  <label className="btn btn-outline-warning toggle-futton-flag" htmlFor="radio1"><img alt="English flag" className="toggler-icon" src="/assets/img/hr.png" /></label>          
               </div>
           </div>
 
