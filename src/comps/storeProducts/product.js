@@ -22,7 +22,7 @@ const Product = (props) => {
           className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
           data-mdb-ripple-color="light"
         >
-          <img src={props.productImage} className="w-100" />
+          <img alt="Random product" src={props.productImage} className="w-100" />
           <a href="#!">
             <div className="mask">
               <div className="d-flex justify-content-start align-items-end h-100">
