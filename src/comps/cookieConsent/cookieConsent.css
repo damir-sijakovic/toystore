@@ -16,6 +16,7 @@ z-index: 120;
 cursor: pointer;
 border-radius: 3px;
 text-align: center;
+width: 400px;
 }
 
 .allow-button{

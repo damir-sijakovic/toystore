@@ -1,4 +1,6 @@
 import LogoImage from "./logo3.svg";
+//import HrFlagImage from './hr.png';
+//import EnFlagImage from './en.png';
 import "./header.css";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
@@ -6,6 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setLocale } from "../../AppSlice";
 import localeJson from "./locale.json";
 import { useRef } from "react";
+
 
 const DrawMenu = (props) => {
   const currentPage = window.location.pathname;
@@ -59,8 +62,8 @@ const HeaderNormal = () => {
   const { locale } = useSelector((state) => state.app);
 
   const localeMenuItemsShort = {
-    en: "🇬🇧 EN",
-    hr: "🇭🇷 HR",
+    en: <><img alt="English flag" className="dropdown-icon" src="/assets/img/en.png" /> EN </> ,
+    hr: <><img alt="Croatian flag" className="dropdown-icon" src="/assets/img/hr.png" /> HR </>,
   };
 
   const handleKeyPress = (e) => {
@@ -105,13 +108,13 @@ const HeaderNormal = () => {
               eventKey="option-1"
               onClick={() => dispatch(setLocale("en"))}
             >
-              🇬🇧 English (EN)
+              <img className="dropdown-icon" alt="Flag" src="/assets/img/en.png" /> English (EN)
             </Dropdown.Item>
             <Dropdown.Item
               eventKey="option-2"
               onClick={() => dispatch(setLocale("hr"))}
             >
-              🇭🇷 Hrvatski (HR)
+              <img className="dropdown-icon" alt="Flag" src="/assets/img/hr.png" /> Hrvatski (HR)
             </Dropdown.Item>
           </DropdownButton>
         </div>
@@ -121,3 +124,9 @@ const HeaderNormal = () => {
 };
 
 export default HeaderNormal;
+
+
+/*
+ 🇬🇧 English (EN)
+
+*/
